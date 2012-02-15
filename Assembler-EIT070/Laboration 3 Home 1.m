@@ -30,22 +30,22 @@ FindMax:
 
         ### Add code to find maximum value element here! ###
         
-                or              t0, a0, zero    # Save address in t0
-                add             v0, zero, zero  # Set v0 to 0
-                add             t5, zero, zero  # Counter = 0
-                addi    t6, zero, 10    # Nr of words
+        or      t0, a0, zero    # Save address in t0
+        add     v0, zero, zero  # Set v0 to 0
+        add     t5, zero, zero  # Counter = 0
+        addi    t6, zero, 10    # Nr of words
                 
-loop:   lw              t1, 0(t0)               # Read from address
+loop:   lw      t1, 0(t0)       # Read from address
                 
-                slt             t4, t1, v0              # if t1 < t2 -> t4 = 1
-                bne             t4, zero, skip  # If t1 < t2 skip
-                nop
-                move    v0, t1
+        slt     t4, t1, v0      # if t1 < t2 -> t4 = 1
+        bne     t4, zero, skip  # If t1 < t2 skip
+        nop
+        move    v0, t1          # Save biggest value in v0
 
-skip:   addi    t0, t0, 4               # Set address to next word.
-                addi    t5, t5, 1               # Add 1 to counter
-                bne             t5, t6, loop    # Loop
-                nop
+skip:   addi    t0, t0, 4       # Set address to next word.
+        addi    t5, t5, 1       # Add 1 to counter
+        bne     t5, t6, loop    # Loop
+        nop
                 
         #lw      s1, 4(sp)   # Restore old value of s1
         #lw      s0, 0(sp)   # Restore old value of s0
