@@ -33,25 +33,24 @@ Loop:   jal     Comp            # Perform heavy computations
 IntHand:
 
         ### Add code for interrupt handler here! ###
-		sub     sp, sp, 4        # Reserve new stack space
+	sub     sp, sp, 4        # Reserve new stack space
         sw      ra, 0(sp)        # Save return address
-		jal	 	get_CAUSE		
-		lw      ra, 0(sp)        # Restore return address
+	jal	get_CAUSE		
+	lw      ra, 0(sp)        # Restore return address
         addi    sp, sp, 4        # Dealloacte stack space
         andi	t1, v0, EXT_INT3 # Mask out buttons
-        beq		t1, t0, skip	 # Skip if other interrupt
+	beq	t1, t0, skip	 # Skip if other interrupt
         
-        la      t0, BUTTONS		 # Place adress of buttons in t0
+        la      t0, BUTTONS	 # Place adress of buttons in t0
         lb      t9, 0x0(t0)      # Load button port value
-        sb		zero, 0(t0)		 # Reset button
+        sb	zero, 0(t0)	 # Reset button
         la      t0, SWITCHES	 # Place adress of switches in t0
-        lb      a0, 0x0(t0)		 # Load switch position
-        la      t0, LEDS		 # Place adress of leds in t0
-        sb      a0, 0x0(t0)		 # Output switch position to LEDs
+        lb      a0, 0x0(t0)	 # Load switch position
+        la      t0, LEDS	 # Place adress of leds in t0
+        sb      a0, 0x0(t0)	 # Output switch position to LEDs
 
-skip:	jr		ra
-		nop
-		#jr
+skip:	jr	ra
+	nop
 
         .end IntHand
 
