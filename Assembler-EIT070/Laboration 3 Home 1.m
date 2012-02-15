@@ -50,7 +50,7 @@ skip:   addi    t0, t0, 4       # Set address to next word.
         #lw      s1, 4(sp)   # Restore old value of s1
         #lw      s0, 0(sp)   # Restore old value of s0
         #addu    sp, sp, 8   # Pop the stack frame
-        jr      ra           # Jump back to calling routine
+        jr       ra          # Jump back to calling routine
 
         .end FindMax
 
