@@ -14,8 +14,8 @@ public class ThreadSemTest extends Thread {
 
     public void run() {
         while(true) {
-            semaphore.take();
             for (int i = 0; i < 4; i++) {
+                semaphore.take();
                 System.out.println(threadIndex + ": " + i);
                 try {
                     sleep(1000);
@@ -23,6 +23,9 @@ public class ThreadSemTest extends Thread {
                     e.printStackTrace();
                 }
             }
+            semaphore.give();
+            semaphore.give();
+            semaphore.give();
             semaphore.give();
             try {
                 sleep(1000);

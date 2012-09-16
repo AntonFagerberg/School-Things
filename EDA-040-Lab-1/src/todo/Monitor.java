@@ -50,13 +50,7 @@ public class Monitor {
 
     public void increment() {
         semaphore.take();
-        increment(1);
-        semaphore.give();
-    }
-
-    public void increment(int amount) {
-        semaphore.take();
-        time += amount;
+        time += 1;
         if (time % 100 > 59)
             time += 40;
         if (time % 10000 / 100 > 59)
