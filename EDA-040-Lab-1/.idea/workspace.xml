@@ -60,28 +60,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AlarmClock.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/todo/AlarmClock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ticker.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/todo/Ticker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Monitor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/todo/Monitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="34" selection-start="417" selection-end="417" vertical-scroll-proportion="0.31343284">
+            <state line="10" column="47" selection-start="294" selection-end="294" vertical-scroll-proportion="-0.43283582">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ButtonWatcher.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/todo/ButtonWatcher.java">
+      <file leaf-file-name="Ticker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/todo/Ticker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="48" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+            <state line="7" column="99" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,6 +84,24 @@
         <entry file="file://$PROJECT_DIR$/src/todo/Interrupt.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AlarmClock.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/todo/AlarmClock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ButtonWatcher.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/todo/ButtonWatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -117,11 +117,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/todo/ButtonWatcher.java" />
         <option value="$PROJECT_DIR$/src/todo/Interrupt.java" />
         <option value="$PROJECT_DIR$/src/todo/Ticker.java" />
-        <option value="$PROJECT_DIR$/src/todo/AlarmClock.java" />
         <option value="$PROJECT_DIR$/src/todo/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/todo/ButtonWatcher.java" />
+        <option value="$PROJECT_DIR$/src/todo/AlarmClock.java" />
       </list>
     </option>
   </component>
@@ -188,6 +188,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="todo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -199,7 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ljrt" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,7 +388,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6702034" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32979664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="319" width="1440" height="280" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.32979664" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="0" y="22" width="1440" height="874" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -524,27 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo/Ticker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo/AlarmClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="46" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/todo/ButtonWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="48" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/todo/Interrupt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
@@ -552,9 +535,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo/AlarmClock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo/ButtonWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/todo/Ticker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="99" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/todo/Monitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="34" selection-start="417" selection-end="417" vertical-scroll-proportion="0.31343284">
+        <state line="10" column="47" selection-start="294" selection-end="294" vertical-scroll-proportion="-0.43283582">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

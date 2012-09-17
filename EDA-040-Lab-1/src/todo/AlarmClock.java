@@ -25,8 +25,6 @@ public class AlarmClock extends Thread {
     }
 
     public void run() {
-        while (monitor.isAlive()) {
-            yield();
-        }
+
     }
 }
