@@ -1,2 +1,10 @@
 
 .DS_Store
+
+*.class
+
+*.xml
+
+*.iml
+
+EDA-040-Lab-2/.idea/.name
